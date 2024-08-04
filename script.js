@@ -105,3 +105,4 @@ function speechText(textSpeech) {
     speechText.voice = window.speechSynthesis.getVoices()[0];
     window.speechSynthesis.speak(speechText);
 }
+
